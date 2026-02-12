@@ -1,0 +1,17 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+paddleocr==3.2.0
+PaddlePaddle==3.2.0
+transformers==4.36.0
+torch==2.1.1
+torchvision==0.16.1
+Pillow==10.1.0
+PyMuPDF==1.23.8
+pdf2image==1.16.3
+numpy==1.24.3
+requests==2.31.0
+python-socketio==5.10.0
+aiofiles==23.2.1
+
