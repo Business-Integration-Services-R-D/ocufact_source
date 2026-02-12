@@ -1,0 +1,90 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "image_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label_key": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label_value": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "match_start": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "match_end": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "ner_tags": {
+      "feature": {
+        "names": [
+          "O",
+          "B-address",
+          "I-address",
+          "B-biometric_data",
+          "I-biometric_data",
+          "B-birth_date_place",
+          "I-birth_date_place",
+          "B-credit_card_number",
+          "I-credit_card_number",
+          "B-criminal_record",
+          "I-criminal_record",
+          "B-email",
+          "I-email",
+          "B-ethnic_origin",
+          "I-ethnic_origin",
+          "B-financial_data",
+          "I-financial_data",
+          "B-gender",
+          "I-gender",
+          "B-health_info",
+          "I-health_info",
+          "B-iban",
+          "I-iban",
+          "B-income_expense",
+          "I-income_expense",
+          "B-location",
+          "I-location",
+          "B-name",
+          "I-name",
+          "B-phone",
+          "I-phone",
+          "B-political_opinion",
+          "I-political_opinion",
+          "B-sexual_life",
+          "I-sexual_life",
+          "B-social_media_account",
+          "I-social_media_account",
+          "B-surname",
+          "I-surname",
+          "B-tckn",
+          "I-tckn",
+          "B-union_membership",
+          "I-union_membership"
+        ],
+        "_type": "ClassLabel"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

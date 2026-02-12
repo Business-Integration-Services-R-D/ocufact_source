@@ -1,0 +1,19 @@
+{
+  "_data_files": [
+    {
+      "filename": "data-00000-of-00001.arrow"
+    }
+  ],
+  "_fingerprint": "84981f898873a378",
+  "_format_columns": [
+    "tokens",
+    "ner_tags",
+    "image_name",
+    "label_key",
+    "label_value"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_output_all_columns": false,
+  "_split": null
+}
