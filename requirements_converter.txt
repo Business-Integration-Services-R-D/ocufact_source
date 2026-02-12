@@ -1,0 +1,6 @@
+Pillow>=10.0.0
+pdf2image>=1.16.0
+
+# Note: LibreOffice is required for Word document conversion
+# Download from: https://www.libreoffice.org/download/
+
