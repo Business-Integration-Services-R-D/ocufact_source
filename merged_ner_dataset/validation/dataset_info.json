@@ -1,0 +1,98 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "image_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label_key": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label_value": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ner_tags": {
+      "feature": {
+        "names": [
+          "O",
+          "B-SOCIAL_MEDIA_ACCOUNT",
+          "I-SOCIAL_MEDIA_ACCOUNT",
+          "B-ADDRESS",
+          "I-ADDRESS",
+          "B-BANK_ACCOUNT",
+          "I-BANK_ACCOUNT",
+          "B-BIOMETRIC_DATA",
+          "I-BIOMETRIC_DATA",
+          "B-BIRTH_DATE_PLACE",
+          "I-BIRTH_DATE_PLACE",
+          "B-CLOTHING",
+          "I-CLOTHING",
+          "B-CREDIT_CARD_NUMBER",
+          "I-CREDIT_CARD_NUMBER",
+          "B-CREDIT_SCORE",
+          "I-CREDIT_SCORE",
+          "B-CRIMINAL_RECORD",
+          "I-CRIMINAL_RECORD",
+          "B-EMAIL",
+          "I-EMAIL",
+          "B-ETHNIC_ORIGIN",
+          "I-ETHNIC_ORIGIN",
+          "B-FINANCIAL_DATA",
+          "I-FINANCIAL_DATA",
+          "B-GENDER",
+          "I-GENDER",
+          "B-GENETIC_DATA",
+          "I-GENETIC_DATA",
+          "B-HEALTH_INFO",
+          "I-HEALTH_INFO",
+          "B-IBAN",
+          "I-IBAN",
+          "B-INCOME_EXPENSE",
+          "I-INCOME_EXPENSE",
+          "B-IP_ADDRESS",
+          "I-IP_ADDRESS",
+          "B-LOCATION",
+          "I-LOCATION",
+          "B-NAME",
+          "I-NAME",
+          "B-PHILOSOPHICAL_BELIEF",
+          "I-PHILOSOPHICAL_BELIEF",
+          "B-PHONE",
+          "I-PHONE",
+          "B-PLATE_NUMBER",
+          "I-PLATE_NUMBER",
+          "B-POLITICAL_OPINION",
+          "I-POLITICAL_OPINION",
+          "B-RACE",
+          "I-RACE",
+          "B-RELIGION_OR_SECT",
+          "I-RELIGION_OR_SECT",
+          "B-SEXUAL_LIFE",
+          "I-SEXUAL_LIFE",
+          "B-SURNAME",
+          "I-SURNAME",
+          "B-TCKN",
+          "I-TCKN",
+          "B-TRANSACTION_HISTORY",
+          "I-TRANSACTION_HISTORY",
+          "B-UNION_MEMBERSHIP",
+          "I-UNION_MEMBERSHIP"
+        ],
+        "_type": "ClassLabel"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
